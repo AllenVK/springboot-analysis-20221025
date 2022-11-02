@@ -42,6 +42,7 @@ public class CodeDemoMain {
                 env.getProperty("server.port"),
                 InetAddress.getLocalHost().getHostAddress(),
                 env.getProperty("server.port"));
+        applicationContext.getBean(CodeDemoMain.class);
     }
 
 }
